@@ -1,0 +1,40 @@
+.temp{display: flex; flex-direction: column; border: 1px solid; display: flex; width: 500px;
+    background-image: url(./images/back3.jpg);height: 500px; font-size: 32px; margin-left: 400px;
+     margin-top: -20px; justify-content: center;}
+     .main{display: flex; flex-direction: column; justify-content: center;}
+
+
+    #myimage{width: 500px; height: 320px; text-align: center;}
+    input{margin-top: 50px;}
+
+button{margin-left: 200px; font-size: 24px; margin-top: 20px; border-radius: 50%; 
+   background-color:beige;}
+h1{border: 1px solid; background-color:cadetblue; width: 300px; font-size: 40px; 
+   text-decoration: underline; text-align: center; margin-left: 500px;}
+   h2{text-align: center; font-size: 22px;}
+   button>img{margin-top: 5px;}
+   /* @media screen and (max-width: 769px){
+       .temp{width: 300px; margin-top: 10px;  justify-content: center; height: 400px; 
+           font-size: 22px;}
+           #myimage{width: 300px; height: 200px;} 
+       h1{width: 300px; font-size: 20px;  margin-right: 100px;
+        margin-left: 400px;}
+       input{font-size: 16px; margin-top: -50px;}
+       button{margin-left: -2px; font-size: 20px;}
+   
+   }
+    */
+    @media screen and (max-width: 769px)
+    {
+        .main{margin-left: -200px;}
+        .temp{width: 300px; height: 480px;}
+        #myimage{width: 300px; height: 280px;}
+      h1{font-size: 20px; margin-left: 400px;}
+        button{margin-right: 50px; width: 60px; font-size: 16px; text-align: center;}
+       #temprature{margin-top: -30px;}
+    }
+    @media screen and (max-width: 376px)
+    {
+     .temp{margin-right: 100px;}
+        .main{margin-left: -380px; width: 500px; height: 500px; justify-content: center;}
+    }
